@@ -59,9 +59,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+  - {fileID: 2100000, guid: 23d642abae500c948ae9dc91872fd1c5, type: 2}
   - {fileID: 2100000, guid: d25c032c4bb02aa4ea79e1c3761b283f, type: 2}
-  - {fileID: 2100000, guid: 7c564a7279c920f47a8af02f4d346dd5, type: 2}
-  - {fileID: 2100000, guid: b7360547b13636945a4fa1a7b740ac30, type: 2}
+  - {fileID: 2100000, guid: 23d642abae500c948ae9dc91872fd1c5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 5942452579310549251}
   - component: {fileID: 235334816926633091}
   m_Layer: 0
-  m_Name: LaserBeamer
+  m_Name: LaserBeamerUpgraded
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110,7 +110,7 @@ Transform:
   m_GameObject: {fileID: 3579157179786107302}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children:
   - {fileID: 7185273867250031918}
   - {fileID: 3045136064936897524}
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93ae987e52f94e44aa18b1e5aba49df8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 20
+  range: 30
   turnSpeed: 10
   fireRate: 1
   bulletPrefab: {fileID: 9048485873646525441, guid: 06996addba76f4245885881f412a727a, type: 3}
@@ -139,8 +139,8 @@ MonoBehaviour:
   lazerEffect: {fileID: 406257792118894248}
   glowEffect: {fileID: 0}
   impactLight: {fileID: 5376368399348419819}
-  damageOverTime: 30
-  slowPct: 0.5
+  damageOverTime: 40
+  slowPct: 0.8
   partToRotate: {fileID: 3045136064936897524}
   enemyTag: Enemy
   firePoint: {fileID: 4356165728336407831}
@@ -195,7 +195,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.30624962
+        value: 0.43915367
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -296,7 +296,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6972819064103140391}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.10499954, y: 0.9, z: 0}
+  m_LocalPosition: {x: -0.10499954, y: 0.856, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6006520620053072776}
@@ -330,7 +330,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8213561342016712551}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: -0.00219962, z: 0}
+  m_LocalPosition: {x: 0, y: -0.04619944, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0.6370336}
   m_Children: []
   m_Father: {fileID: 4242506097765696284}

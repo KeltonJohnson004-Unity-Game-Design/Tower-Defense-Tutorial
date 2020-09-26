@@ -13,7 +13,6 @@ public class CameraController : MonoBehaviour
     public float minZ = 10f;
     public float maxZ = 80f;
 
-    private bool doMovement = true;
     private void Update()
     {
         if(GameManager.GameIsOver)
@@ -23,14 +22,7 @@ public class CameraController : MonoBehaviour
         }
 
 
-        if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            doMovement = !doMovement;
-        }
-        if(!doMovement)
-        {
-            return;
-        }
+
         if(Input.GetKey("w") || Input.mousePosition.y >= Screen.height - panBorderThickness)
         {
             if (transform.position.z > minZ)

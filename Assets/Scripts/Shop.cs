@@ -1,5 +1,4 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Shop : MonoBehaviour
 {
@@ -13,13 +12,12 @@ public class Shop : MonoBehaviour
     }
     public void SelectStandardTurret()
     {
-        Debug.Log("standard Turret Selected");
+
         buildManager.SelectTurretToBuild(standardTurret);
     }
 
     public void SelectMissleLauncher()
     {
-        Debug.Log("Missle Launcher Selected");
         buildManager.SelectTurretToBuild(missleLauncher);
     }
 
