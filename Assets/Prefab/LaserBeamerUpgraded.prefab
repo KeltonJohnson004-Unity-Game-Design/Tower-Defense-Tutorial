@@ -140,7 +140,7 @@ MonoBehaviour:
   glowEffect: {fileID: 0}
   impactLight: {fileID: 5376368399348419819}
   damageOverTime: 40
-  slowPct: 0.8
+  slowPct: 0.4
   partToRotate: {fileID: 3045136064936897524}
   enemyTag: Enemy
   firePoint: {fileID: 4356165728336407831}
